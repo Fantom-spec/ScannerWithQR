@@ -4,6 +4,7 @@ A Discount Calculator which shows Final Amount and then can generate a QR Code w
 Also has a transaction History
 
 
-#BEFORE USING
+# BEFORE USING
 
 Add your UPI ID in app/src/main/java/com/example/scannerwithqr/MainActivity.kt
+
