@@ -127,7 +127,7 @@ fun DiscountQRScreen(navController: NavHostController, context: ComponentActivit
             onClick = {
                 val finalAmount = output.toDoubleOrNull()
                 if (finalAmount != null) {
-                    val qrString = "upi://pay?pa=8527472442@ybl&am=$finalAmount"
+                    val qrString = "upi://pay?pa={your upi id}&am=$finalAmount"
                     qrBitmap = generateQRCode(qrString)
                     showQRDialog = true
                 }
